@@ -44,6 +44,9 @@ public class GenericsExample1 {
 // При использовании generic отпадает необходимость проверки типа и кастинга.
         value = newBox.get();
         System.out.println(value);
+
+// В качестве типов параметров можно использовать только ссылочные типы!!!
+//        NewBox<int> intBox = new NewBox<int>();
     }
 
     private static void diamondUsageInInstantiatingGeneric() {
